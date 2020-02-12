@@ -1,0 +1,16 @@
+name: zMuteChat
+main: net.dopedealers.plugins.mutechat.Registry
+version: 1.0.0
+api-version: 1.13
+
+commands:
+  zmc:
+    description: Default command for zMuteChat
+  mutechat:
+    aliases: [mc, mutec, chatmute]
+
+permissions:
+  zmute.help:
+    description: allows the user to run the default command
+  zmute.admin:
+    description: Allows the user to reload the plugin
