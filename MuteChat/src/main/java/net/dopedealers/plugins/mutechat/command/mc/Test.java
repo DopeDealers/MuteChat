@@ -1,5 +1,6 @@
 package net.dopedealers.plugins.mutechat.command.mc;
 
+import net.dopedealers.plugins.mutechat.Registry;
 import net.dopedealers.plugins.mutechat.command.CommandListener;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;

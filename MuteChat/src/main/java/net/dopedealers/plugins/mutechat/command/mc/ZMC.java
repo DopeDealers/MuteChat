@@ -27,7 +27,7 @@ public class ZMC extends CommandListener {
             sender.sendMessage(Util.c("         &5zMuteChat"));
             sender.sendMessage(" ");
             sender.sendMessage(Util.c("&cCommands:"));
-            sender.sendMessage(Util.c("&b/mutechat <gui>\n/zmc <help:reload"));
+            sender.sendMessage(Util.c("&b/mutechat [opens gui]\n&b/mutechat toggle"));
             sender.sendMessage(" ");
             sender.sendMessage(Util.c("&7&m-&c&m>&r&7&m-----------------&c&m<&r&7&m-"));
         } else if (args[0].equals("reload") && ((Player) sender).getPlayer().hasPermission("zmute.admin")) {

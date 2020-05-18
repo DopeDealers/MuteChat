@@ -7,15 +7,14 @@ import org.bukkit.scheduler.BukkitRunnable;
 
 import java.util.Random;
 
-public class MuteInventory extends BukkitRunnable
-{
+public class MuteInventory extends BukkitRunnable {
     private final int[] numbers;
     private final Player player;
     private final Inventory inv;
     private int current;
 
     public MuteInventory(final Player player) {
-        this.numbers = new int[] { 3, 4, 5, 2, 6, 1, 7, 0, 8, 9, 17, 18, 26, 19, 25, 20, 24, 21, 22, 23 };
+        this.numbers = new int[]{3, 4, 5, 2, 6, 1, 7, 0, 8, 9, 17, 18, 26, 19, 25, 20, 24, 21, 22, 23};
         this.current = -1;
         this.player = player;
         this.inv = player.getOpenInventory().getTopInventory();

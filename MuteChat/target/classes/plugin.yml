@@ -2,8 +2,6 @@ name: zMuteChat
 main: net.dopedealers.plugins.mutechat.Registry
 version: 1.0.0
 api-version: 1.13
-softdepend: [Vault, LuckPerms]
-load: STARTUP
 
 commands:
   zmc:
@@ -14,7 +12,5 @@ commands:
 permissions:
   zmute.help:
     description: allows the user to run the default command
-  zmute.staff:
-    description: Hey
   zmute.admin:
     description: Allows the user to reload the plugin
